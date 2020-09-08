@@ -1,0 +1,123 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar {
+    background-color: #2572b4;
+    margin-bottom: 10px;
+}
+
+.navbar .navbar-brand {
+    color: #ffffff;
+}
+
+.brandlogo {
+    background: url('https://itools-ioutils.fcac-acfc.gc.ca/MC-CH/images/MC-CH.svg') left top no-repeat;
+    padding: 0 20px;
+    margin-right: 20px;
+    width: 46px;
+    height: 46px;
+}
+
+.panel {
+    margin-bottom: 23px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #2572b4;
+    border-color: #2572b4;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+header {
+    position: relative;
+}
+
+.mrgn-tp-lg {
+    margin-top: 30px;
+}
+
+.panel-primary {
+    border-color: #2572b4;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+input,
+select,
+label {
+    width: 180px;
+    margin-right: 5px;
+}
+
+th,
+td {
+    padding: 0 7px;
+    text-align: right;
+}
+
+.money {
+    padding-left: 1rem;
+    color: #2572b4;
+}
+
+tbody,
+tfoot tr:first-child {
+    border-top: #2572b4 solid 1px;
+}
+
+.line {
+    fill: none;
+    stroke: #2572b4;
+    stroke-width: 1.5px;
+}
+
+.baseline {
+    stroke-dasharray: 4, 4;
+}
+
+.tooltips {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltips .tooltiptext {
+    visibility: hidden;
+    width: 320px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltips:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
